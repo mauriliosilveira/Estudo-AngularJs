@@ -1,0 +1,15 @@
+.jumbotron{
+			width: 400px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.table{
+			margin-top: 20px;
+		}
+		.form-control{
+			margin-bottom: 5px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+	<meta charset = "utf-8"/>
+	<title>PEGANDO DADOS JSON</title>
+	<script type="text/javascript" src="asserts/js/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="asserts/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="asserts/css/style.css">
+
+</head>
+<body ng-app="app">
+
+	<!-- PEGANDO DADOS JSON -->
+	<div ng-controller="ProfessoresCtrl">
+		<div class="jumbotron">
+			<h3>{{app}}</h3>
+
+			<!-- SISTEMA DE BUSCA DE PROFESSORES -->
+			<input class="form-control" type="text" ng-model="sistemaDeBuscaProfessor" placeholder="Buscar por Professor">
+			
+			<!-- SISTEMA DE BUSCA DE DISCIPLINA -->
+			<input class="form-control" type="text" ng-model="sistemaDeBuscaDisciplina" placeholder="Buscar por Disciplina">
+
+			<!-- CRIANDO TABELA COM OS NOMES DOS PROFESSORES E DISCIPLINAS -->
+			<table class="table table-striped">
+				<tr>
+					<th>______Nome______</th>
+					<th>______Disciplina______</th>
+				</tr>
+
+				<!-- APLICANDO SISTEMA DE FILTRO EM PROFESSORES E DISCIPLINAS -->
+				<tr ng-repeat="professor in professores | filter :{nome: sistemaDeBuscaProfessor} | filter :{disciplina: sistemaDeBuscaDisciplina}">
+
+					<!-- IMPRIMINDO NA TELA O JSON DOS PROFESSORES E DISCIPLINAS -->
+					<td>{{professor.nome}}</td>
+					<td>{{professor.disciplina}}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<!-- MODULE -->
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="professores-module.js"></script>
+
+	<!-- CONTROLLER -->
+	<script type="text/javascript" src="professores-controller.js"></script>
+
+</body>
+</html>

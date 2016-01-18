@@ -1,0 +1,98 @@
+[
+	{
+	"nome" : "Arthur",
+	"disciplina": "Matemática"
+	},
+	{
+	"nome" : "Lucas",
+	"disciplina": "Quimica"
+	},
+	{
+	"nome" : "Matheus",
+	"disciplina": "Geografia"
+	},
+	{
+	"nome" : "Guilherme",
+	"disciplina": "Matemática"
+	},
+	{
+	"nome" : "Enzo",
+	"disciplina": "Quimica"
+	},
+	{
+	"nome" : "Gustavo",
+	"disciplina": "História"
+	},
+	{
+	"nome" : "Nicolas",
+	"disciplina": "Física"
+	},
+	{
+	"nome" : "João Pedro",
+	"disciplina": "Matemática"
+	},
+	{
+	"nome" : "Pedro Henrique",
+	"disciplina": "Matemática"
+	},
+	{
+	"nome" : "Henrique",
+	"disciplina": ""
+	},
+	{
+	"nome" : "Eduardo",
+	"disciplina": "Artes"
+	},
+	{
+	"nome" : "Vitor",
+	"disciplina": "Inglês"
+	},
+	{
+	"nome" : "Pietro",
+	"disciplina": "Quimica"
+	},
+	{
+	"nome" : "João Vitor",
+	"disciplina": "Inglês"
+	},
+	{
+	"nome" : "Leonardo",
+	"disciplina": "Inglês"
+	},
+	{
+	"nome" : "Caio",
+	"disciplina": "Inglês"
+	},
+	{
+	"nome" : "Lucca",
+	"disciplina": "Geografia"
+	},
+	{
+	"nome" : "Enzo Gabriel",
+	"disciplina": "Química"
+	},
+	{
+	"nome" : "Thiago",
+	"disciplina": "Física"
+	},
+	{
+	"nome" : "João Gabriel",
+	"disciplina": "História"
+	},
+	{
+	"nome" : "Emanuel",
+	"disciplina": "Geografia"
+	},
+	{
+	"nome" : "Ryan",
+	"disciplina": "Física"
+	},
+	{
+	"nome" : "Carlos Eduardo",
+	"disciplina": "História"
+	},
+	{
+	"nome" : "Bruno",
+	"disciplina": "Geografia"
+	}
+]
